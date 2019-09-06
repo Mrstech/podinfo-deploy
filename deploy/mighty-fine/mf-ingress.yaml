@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: podinfo
+  name: mighty-fine
   namespace: dev
   annotations:
     kubernetes.io/ingress.class: traefik
@@ -17,8 +17,8 @@ spec:
   - host: training-user-29.training.weave.works
     http:
       paths:
-      - path: /podinfo
+      - path: /mighty-fine
         backend:
-          serviceName: podinfo
-          servicePort: 9898
+          serviceName: mighty-fine
+          servicePort: 3000
 
