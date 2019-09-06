@@ -1,0 +1,1 @@
+{"jobID":"167ec94a-eb0c-c85d-226a-e2a83430ec41","spec":{"type":"policy","cause":{"Message":"","User":"Vania Valdez-Papini \u003cmrsvaldez@hotmail.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"automated":"true"},"remove":null}}},"result":null}
